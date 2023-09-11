@@ -1,4 +1,6 @@
-﻿namespace ConsoleUI
+﻿using System;
+
+namespace ConsoleUI
 {
     static class Program
     {
