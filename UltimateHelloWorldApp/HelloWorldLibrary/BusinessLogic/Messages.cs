@@ -8,6 +8,6 @@ public class Messages
 
     public Messages(ILogger<Messages> log)
     {
-        this.log=log;
+        this.log = log;
     }
 }
