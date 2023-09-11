@@ -19,7 +19,7 @@ namespace ConsoleUI
         {
             for (int i = 0; i < config.GetValue<int>("LoopTimes"); i++)
             {
-                log.LogInformation("Run number { runNumber }", i);
+                log.LogInformation("Run number {runNumber}", i);
             }
         }
     }

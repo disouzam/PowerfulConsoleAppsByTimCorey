@@ -32,7 +32,7 @@ namespace ConsoleUI
                            .UseSerilog()
                            .Build();
 
-            var svc = ActivatorUtilities.CreateInstance<IGreetingService>(host.Services);
+            var svc = ActivatorUtilities.CreateInstance<GreetingService>(host.Services);
             svc.Run();
         }
 
