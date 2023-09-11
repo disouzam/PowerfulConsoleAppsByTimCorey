@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 
 namespace ConsoleUI
 {
-    public class GreetingService
+    public class GreetingService : IGreetingService
     {
         private readonly ILogger<GreetingService> log;
 
