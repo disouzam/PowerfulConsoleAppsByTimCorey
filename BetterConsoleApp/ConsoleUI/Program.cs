@@ -27,7 +27,7 @@ namespace ConsoleUI
             var host = Host.CreateDefaultBuilder()
                            .ConfigureServices((context, services) =>
                            {
-                               services.AddTransient<GreetingService>();
+                               services.AddTransient<IGreetingService, GreetingService>();
                            })
                            .UseSerilog()
                            .Build();
