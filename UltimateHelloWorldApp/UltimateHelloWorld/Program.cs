@@ -1,4 +1,6 @@
-﻿namespace UltimateHelloWorld;
+﻿using System;
+
+namespace UltimateHelloWorld;
 
 public static class Program
 {

@@ -1,4 +1,6 @@
-﻿namespace HelloWorldLibrary.Models;
+﻿using System.Collections.Generic;
+
+namespace HelloWorldLibrary.Models;
 
 public class CustomText
 {
