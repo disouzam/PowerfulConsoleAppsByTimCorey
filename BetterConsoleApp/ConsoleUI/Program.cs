@@ -31,6 +31,9 @@ namespace ConsoleUI
                            })
                            .UseSerilog()
                            .Build();
+
+            var svc = ActivatorUtilities.CreateInstance<IGreetingService>(host.Services);
+            svc.Run();
         }
 
         static void BuildConfig(IConfigurationBuilder builder)
