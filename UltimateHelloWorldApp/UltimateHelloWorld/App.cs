@@ -19,9 +19,9 @@ public class App
 
         for(int i = 0; i < args.Length; i++)
         {
-            if(args[i].ToLower().StartsWith("-lang="))
+            if(args[i].ToLower().StartsWith("lang="))
             {
-                lang = args[i].Substring(6);
+                lang = args[i].Substring(5);
                 break;
             }
         }
